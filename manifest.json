@@ -1,0 +1,62 @@
+{
+  "short_name": "Al-Quran Cloud",
+  "name": "Al-Quran Cloud Indonesia",
+   "description": "Aplikasi Al-Quran PWA memungkinkan pengguna untuk membaca dan mempelajari Al-Quran secara online. Dilengkapi dengan fitur-fitur seperti pencarian ayat,video, pengulangan, terjemahan, dan tafsir, pengguna dapat dengan mudah mengakses berbagai macam informasi tentang setiap ayat Al-Quran.",
+  "icons": [
+    {
+      "src": "/al-quran/my-logo/icon72.jpg",
+      "type": "image/png",
+      "sizes": "72x72"
+    },
+    {
+      "src": "/al-quran/my-logo/icon96.jpg",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "/al-quran/my-logo/icon128.jpg",
+      "type": "image/png",
+      "sizes": "128x128"
+    },
+    {
+      "src": "/al-quran/my-logo/icon144.jpg",
+      "type": "image/png",
+      "sizes": "144x144"
+    },
+    {
+      "src": "/al-quran/my-logo/icon152.jpg",
+      "type": "image/png",
+      "sizes": "152x152"
+    },
+    {
+      "src": "/al-quran/my-logo/icon192.jpg",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/al-quran/my-logo/icon384.jpg",
+      "type": "image/png",
+      "sizes": "384x384"
+    },
+    {
+      "src": "/al-quran/my-logo/icon512.jpg",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/home-page/home.html",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "orientation": "portrait",
+  "scope": "/",
+  "dir": "ltr",
+  "lang": "id-ID",
+  "related_applications": [],
+  "prefer_related_applications": false,
+  "serviceworker": {
+    "src": "/service-worker.js",
+    "scope": "/"
+  },
+  "versi" : "1.1.1"
+}
